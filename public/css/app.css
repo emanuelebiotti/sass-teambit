@@ -425,6 +425,10 @@ footer .smile .helps {
   font-size: 90%;
 }
 
+footer .smile .helps p span {
+  color: #30488E;
+}
+
 footer .footer-right {
   width: 60%;
   height: 600px;
@@ -445,11 +449,21 @@ footer .footer-right .footer-right-section ul li {
   margin: 20px 0;
 }
 
+footer .footer-right .footer-right-section ul li a {
+  text-decoration: none;
+  color: #58402B;
+}
+
 footer .footer-right .footer-right-section ul li:first-child {
-  font-size: 25px;
+  font-size: 24px;
+  margin-bottom: 33px;
 }
 
 footer .footer-right .footer-right-section:last-child {
   line-height: 30px;
+}
+
+footer .footer-right .footer-right-section:last-child li:first-child {
+  margin-bottom: 0;
 }
 

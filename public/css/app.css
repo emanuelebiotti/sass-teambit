@@ -191,6 +191,7 @@ hr {
   border: 1px solid blue;
   border-radius: 5px;
   line-height: 35px;
+  transition: 0.3s;
 }
 
 .header-right a:last-child:hover {
@@ -255,6 +256,7 @@ hr {
   border-radius: 5px;
   font-size: 90%;
   line-height: 20px;
+  transition: 0.3s;
 }
 
 .signup_buttons a:hover {

@@ -25,7 +25,6 @@ hr {
   }
 }
 
-
 //parte destra dell'header
 .header-right {
   width: 85%;
@@ -40,6 +39,7 @@ hr {
     text-decoration: none;
     font-size: 90%;
     color: $menu_link_color;
+
     &:hover {
       color:#30488E;
       cursor:pointer;
@@ -51,6 +51,7 @@ hr {
     border: 1px solid blue;
     border-radius: 5px;
     line-height: 35px;
+    transition: 0.3s;
     &:hover {
       background-color: #30488E;
       color:white;

@@ -10729,8 +10729,8 @@ $(document).ready(function () {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/home/Desktop/prima-app/src/js/app.js */"./src/js/app.js");
-module.exports = __webpack_require__(/*! /Users/home/Desktop/prima-app/src/scss/app.scss */"./src/scss/app.scss");
+__webpack_require__(/*! /Users/home/Documents/Boolean/Esercizi/EmanueleBiotti/prima-app/src/js/app.js */"./src/js/app.js");
+module.exports = __webpack_require__(/*! /Users/home/Documents/Boolean/Esercizi/EmanueleBiotti/prima-app/src/scss/app.scss */"./src/scss/app.scss");
 
 
 /***/ })

@@ -383,3 +383,73 @@ hr {
   top: 100px;
 }
 
+footer {
+  width: 100vw;
+  height: 600px;
+  background-color: white;
+}
+
+footer .footer-container {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  margin: auto;
+}
+
+footer .footer-left {
+  width: 40%;
+  height: 600px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+footer .smile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  height: 100px;
+  color: #58402B;
+  margin-top: 80px;
+}
+
+footer .smile img {
+  width: 50%;
+  height: 50%;
+  margin: 30px;
+}
+
+footer .smile .helps {
+  font-family: sans-serif;
+  font-size: 90%;
+}
+
+footer .footer-right {
+  width: 60%;
+  height: 600px;
+  display: flex;
+  color: #58402B;
+}
+
+footer .footer-right .footer-right-section {
+  width: 20%;
+  height: 100%;
+}
+
+footer .footer-right .footer-right-section ul {
+  margin-top: 80px;
+}
+
+footer .footer-right .footer-right-section ul li {
+  margin: 20px 0;
+}
+
+footer .footer-right .footer-right-section ul li:first-child {
+  font-size: 25px;
+}
+
+footer .footer-right .footer-right-section:last-child {
+  line-height: 30px;
+}
+

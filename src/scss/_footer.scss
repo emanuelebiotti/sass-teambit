@@ -1,0 +1,65 @@
+footer {
+  width:100vw;
+  height:600px;
+  background-color: white;
+
+  .footer-container {
+    width:80%;
+    height:100%;
+    display:flex;
+    margin:auto;
+  }
+
+  .footer-left {
+    width:40%;
+    height:600px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  .smile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:80%;
+    height:100px;
+    color: $menu_link_color;
+    margin-top:80px;
+
+    img {
+      width:50%;
+      height:50%;
+      margin:30px;
+    }
+    .helps {
+      font-family: sans-serif;
+      font-size: 90%;
+    }
+  }
+  .footer-right {
+    width:60%;
+    height:600px;
+    display: flex;
+    color:$menu_link_color;
+
+      .footer-right-section {
+        width: 20%;
+        height:100%;
+
+        ul {
+          margin-top:80px;
+          li {
+            margin: 20px 0;
+          }
+          li:first-child {
+            font-size: 25px;
+          }
+        }
+      }
+
+      .footer-right-section:last-child {
+        line-height: 30px;
+      }
+  }
+
+}
